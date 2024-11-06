@@ -1,0 +1,22 @@
+button {
+    color: $text-color;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+
+  .button-primary {
+    background-color: $button-primary;
+    &:hover{background-color: darken(30%)}
+  }
+  
+  .button-secondary {
+    background-color: $button-secondary;
+  }
+  
+  .button-success {
+    background-color: $button-success;
+  }
